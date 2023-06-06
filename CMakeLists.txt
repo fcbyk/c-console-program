@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.19)
+project(cpp_study)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(cpp_study main.cpp computer-room-reservation/object/cpp/Circle.cpp address-book/addressBook.cpp address-book/addressBook.h worker-manager/Worker.h worker-manager/Manager.cpp worker-manager/Employee.cpp worker-manager/Boss.cpp worker-manager/WorkerManager.cpp worker-manager/WorkerManager.h speech-manager/Speaker.h speech-manager/SpeechManager.cpp speech-manager/SpeechManager.h computer-room-reservation/object/ComputerRoom.h computer-room-reservation/object/Identity.h computer-room-reservation/const/computerRoomFile.h computer-room-reservation/object/cpp/ComputerManager.cpp computer-room-reservation/object/ComputerManager.h computer-room-reservation/object/cpp/Student.cpp computer-room-reservation/object/Student.h computer-room-reservation/object/cpp/OrderFile.cpp computer-room-reservation/object/OrderFile.h computer-room-reservation/object/cpp/Teacher.cpp computer-room-reservation/object/Teacher.h computer-room-reservation/ComputerRoomReservation.cpp computer-room-reservation/ComputerRoomReservation.h)
